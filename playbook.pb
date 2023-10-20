@@ -1,6 +1,6 @@
 ---
 - name: Configure MySQL Server
-  hosts: your_target_host
+  hosts: all
   become: yes
   roles:
-    - ansible-role-mysql
+    - mysql
